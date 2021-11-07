@@ -5,9 +5,9 @@ import SimpleHTTPServer
 import ssl
 
 # Variables you can modify
-
-bind_to_address = '192.168.250.72'
-server_port = 9243
+# https://192.168.250.72:4509
+bind_to_address = '192.168.250.80'
+server_port = 4509
 ssl_key_file = "server1.example.com.key"
 ssl_certificate_file = "server1.example.com.pem"
 

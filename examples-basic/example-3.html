@@ -15,7 +15,7 @@
     
     <!-- define your gltf asset -->
     <a-assets>
-      <a-asset-item id="Duck" src="assets/gltf/duck/Duck.gltf"></a-asset-item>
+      <a-asset-item id="scene" src="assets/gltf/scene/scene.gltf"></a-asset-item>
     </a-assets>
 
     <!--
@@ -25,7 +25,7 @@
     <a-marker preset="hiro">
 
             <!-- display your gltf asset -->
-            <a-entity gltf-model="#Duck">
+            <a-entity gltf-model="#scene">
               
               <a-animation attribute="rotation" to="90 360 0" dur="9000" repeat="indefinite" easing="linear"></a-animation>
 
